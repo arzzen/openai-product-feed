@@ -59,6 +59,14 @@ class FeedGenerator
         $this->addProduct(new Product($data));
     }
 
+    public function toArray(): array
+    {
+        return [
+            'meta' => $this->meta,
+            'products' => array_map(fn($p) => $p->toArray(), $this->products)
+        ];
+    }
+
     public function toJson(bool $pretty = true): string
     {
         $obj = $this->meta;

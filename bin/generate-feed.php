@@ -44,6 +44,7 @@ if (in_array($ext, ['csv', 'tsv'])) {
         if (isset($data['shipping'])) {
             $data['shipping'] = array_filter(array_map('trim', explode('|', $data['shipping'])));
         }
+        print_r($data);
         $fg->addProductFromArray($data);
     }
     fclose($fh);
