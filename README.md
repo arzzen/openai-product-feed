@@ -1,6 +1,6 @@
 # OpenAI Product Feed PHP
 
-This package generates Product Feeds compliant with the OpenAI Product Feed Spec:\n
+This package generates Product Feeds compliant with the OpenAI Product Feed Spec: 
 https://developers.openai.com/commerce/specs/feed
 
 It supports exporting in multiple formats:
