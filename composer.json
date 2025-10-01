@@ -1,0 +1,19 @@
+{
+  "name": "arzzen/openai-product-feed",
+  "description": "PHP package to generate OpenAI Product Feed (JSON/CSV/XML) compliant with the Product Feed Spec",
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "php": ">=7.4",
+    "league/csv": "^9.8"
+  },
+  "autoload": {
+    "psr-4": {
+      "OpenAI\\Feed\\": "src/"
+    }
+  },
+  "bin": [
+    "bin/generate-feed.php"
+  ],
+  "minimum-stability": "stable"
+}

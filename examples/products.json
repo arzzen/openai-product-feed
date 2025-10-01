@@ -1,0 +1,52 @@
+{
+  "feed_id": "example_store_feed_2025_09",
+  "feed_version": "1.0",
+  "generated_at": "2025-09-30T12:00:00Z",
+  "products": [
+    {
+      "id": "SKU-TRAIL-SHOE-BLK-10",
+      "item_group_id": "SHOE-TRAIL-2025",
+      "item_group_title": "Men's Trail Running Shoes",
+      "gtin": "0123456789012",
+      "mpn": "TRAIL-2025",
+      "title": "Men's Trail Running Shoes \u2014 Black / Size 10",
+      "description": "Lightweight waterproof trail running shoes with cushioned midsole and aggressive outsole for rocky terrain. Breathable mesh upper with reinforced toe cap.",
+      "link": "https://example-store.com/product/trail-shoe",
+      "image_link": "https://example-store.com/images/trail-shoe-black-10.jpg",
+      "additional_image_link": [
+        "https://example-store.com/images/trail-shoe-black-10-side.jpg",
+        "https://example-store.com/images/trail-shoe-black-10-sole.jpg"
+      ],
+      "brand": "ExampleBrand",
+      "product_category": "Apparel & Accessories > Shoes",
+      "condition": "new",
+      "material": "Synthetic mesh / Rubber outsole",
+      "weight": "1.2 lb",
+      "color": "Black",
+      "size": "10",
+      "size_system": "US",
+      "gender": "male",
+      "price": "129.99 USD",
+      "sale_price": "99.99 USD",
+      "sale_price_effective_date": "2025-10-01/2025-10-07",
+      "applicable_taxes_fees": "0.00 USD",
+      "availability": "in_stock",
+      "inventory_quantity": 42,
+      "shipping": [
+        "US:CA:Standard:7.00 USD",
+        "US:ALL:Express:16.00 USD"
+      ],
+      "delivery_estimate": "2025-10-03",
+      "seller_name": "Example Store",
+      "seller_url": "https://example-store.com/store/example-store",
+      "seller_privacy_policy": "https://example-store.com/privacy",
+      "seller_tos": "https://example-store.com/terms",
+      "return_policy": "https://example-store.com/returns",
+      "return_window": 30,
+      "enable_search": "true",
+      "enable_checkout": "true",
+      "offer_id": "SKU-TRAIL-SHOE-BLK-10|ExampleStore|129.99",
+      "offer_type": "standard"
+    }
+  ]
+}
